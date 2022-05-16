@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <li><%= link_to "產品列表", products_path %></li>
+        <li><%= link_to "新增產品", new_product_path %></li>
+      </ul>
+    </nav>
     <%= yield %>
   </body>
 </html>
